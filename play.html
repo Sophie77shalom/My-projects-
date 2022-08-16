@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<form>
+    <select name="q">
+        <option value="1"> the number one</option>
+        <option>two</option> 
+        <option>three</option>
+    </select>
+    <br>
+
+<form method="post">
+    What is your birthday
+    <br>
+    <label>day
+    <input type="text" name="day">
+    </label>
+    <label>month
+    <input type="text" name="month">
+    </label>
+    <label>year
+    <input type="text" name="year">
+    </label>
+    <div style="color:red">%(error)s</div>
+    <input type="submit">
+</form>
+<form>
+    <h2>Add a food</h2>
+    <input type="text" name="food">
+    <input type="hidden" name="food" value="eggs">
+    <input type="hidden" name="food" value="steak">
+
+    <button>add</button>
+</form>
+<br>
+<br>
+<h2>shopping list</h2>
+<ul>
+    <li>eggs</li><li>steak</li>
+</ul>
+
+</form>
